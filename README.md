@@ -1,12 +1,22 @@
-# Maze-with-no-Rotation
-A mini project for kids who are interested in Python programming and like math, physics and games. 
-We present Python code that realizes maze game with Pygame library. Code is very simple (not more 
-than 50 lines). You can create a game with any maze geometry (simple or complex) that can be imported 
-as an image from an Internet. Presented code utilizes maze geometry and a player avatar (for example, 
-square or ball) that can navigate that maze.  The complexity of the code (the number of lines) depends 
-very little on the maze image geometry due to the utilizing of special Pygame function sprite.collide_mask 
-which detects collision between  a player avatar and maze lines. So, if you want to use some specific maze 
-instead current geometry you need to replace maze image without changing Python code. Files for modeling 
-of this scenario can be downloaded free of charge at:
+Мини-проект для детей, которые интересуются программированием на Python, любят математику и игры. 
+Создаем игру с вращающимся лабиринтом с помощью библиотеки Pygame. При использовании предлагаемого 
+кода вы можете создать игру с произвольной геометрией лабиринта. Из изображения мозаики необходимо 
+удалить фон (мозаика должна быть прозрачной по фону). Фишка игрока перемещается по лабиринту с
+помощью клавиш со стрелками, управляемых с клавиатуры. Фишка игрока должна пройти от старта до
+финиша не задевая вращающихся линий лабиринта. Сложность программного кода (количество строк) 
+не зависит от геометрии лабиринта. Если вы хотите использовать лабиринт, отличный от текущей мозаики, 
+вы можете просто заменить изображение лабиринта, не изменяя кода Python. Файлы проекта можно бесплатно 
+загрузить по адресу:
 
-https://github.com/victenna/Maze-with-no-Rotation
+https://github.com/victenna/Maze-with-Rotation
+
+A mini project for kids who are interested in Python programming and enjoy math and games. 
+We provide a Python Pygame library code that creates a game with spinning maze. The library 
+code is very minimalist, less than 50 lines. You can build a game with maze geometry, simple or 
+complex, that can be imported from an Internet. Maze image must be background transparent. Provided 
+code utilizes a maze geometry with a player avatar (for example, square or ball) that navigates the 
+maze with keyboard-controlled arrow keys.  The complexity of the code (the number of lines) does not 
+depend on the maze geometry. If you wish to use a different maze from the current geometry, you can 
+simply replace the maze image without modifying the Python code.
+
+https://github.com/victenna/Maze-with-Rotation
